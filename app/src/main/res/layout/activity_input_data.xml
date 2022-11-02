@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ejerciciofinal.InputDataActivity">
+
+    <TextView
+        android:id="@+id/txv_Nombre"
+        android:text="Nombre: "
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_Nombre"
+        android:tooltipText="Nombre"
+
+        android:textSize="24sp"
+
+        android:layout_below="@+id/txv_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txv_Apellido"
+        android:text="Apellido: "
+        android:textSize="24sp"
+
+        android:layout_below="@+id/edt_Nombre"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_Apellido"
+        android:tooltipText="Apellido"
+        android:textSize="24sp"
+
+        android:layout_below="@+id/txv_Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txv_Peso"
+        android:text="Peso (kg): "
+        android:textSize="24sp"
+
+        android:layout_below="@+id/edt_Apellido"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edt_Peso"
+        android:tooltipText="Peso"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"
+
+
+        android:layout_below="@+id/txv_Peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txv_Altura"
+        android:text="Altura (m): "
+        android:textSize="24sp"
+
+        android:layout_below="@+id/edt_Peso"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_Altura"
+        android:tooltipText="Altura"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/txv_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_Enviar"
+        android:text="Enviar"
+        android:textSize="20sp"
+
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/edt_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
