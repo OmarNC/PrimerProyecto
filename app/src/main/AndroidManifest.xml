@@ -12,13 +12,47 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrimerProyecto"
         tools:targetApi="31">
-       <activity
-            android:name=".ejerciciofinal.ViewDataActivity"
+     <!--   <activity
+            android:name=".FragmentManagerActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>-->
+        <!--
+             <activity
+            android:name=".FragmentActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        -->
+        <!--
+             <activity
+            android:name=".TapsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        -->
+        <!--
+         <activity
+            android:name=".RecycleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        -->
+      <!--  <activity
+            android:name=".ejerciciofinal.ViewDataActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>-->
         <!--
         <activity
             android:name=".InputDataActivity"
@@ -26,7 +60,8 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>-->
+        </activity>
+        -->
         <!--
            <activity
             android:name=".LinearLayoutActivity"
@@ -64,8 +99,9 @@
              </activity>
         -->
         <activity
-            android:name=".ejerciciofinal.InputDataActivity"
-            android:exported="true">
+            android:name=".ejercicioclase.fragments.FragmentManagerActivity"
+            android:exported="true"
+            android:theme="@style/ThemeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

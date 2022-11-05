@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PrimerProyecto</string>
+    <string name="relative_titulo">Texto dentro de RealtiveLayout</string>
+    <string name="realtive_hint_name">Escribe el nombre</string>
+    <string name="relative_cbText_Tarjeta">¿Tienes tarjeta de crédito?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

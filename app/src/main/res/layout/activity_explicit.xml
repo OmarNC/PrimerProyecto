@@ -8,19 +8,37 @@
 
     <EditText
         android:id="@+id/edtName"
+        tools:text="Green EditText"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
+    <EditText
+        android:id="@+id/edtName2"
+        style="@style/GreenEditText"
+        tools:text="Green EditText"
+        android:layout_below="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edtName3"
+        android:layout_below="@+id/edtName2"
+        style="@style/GreenEditText"
+        tools:text="Green EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
     <Button
         android:id="@+id/btnEnviar"
         android:text="Enviar"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/edtName" />
-
-
-
+        android:layout_below="@+id/edtName3" />
 
 </RelativeLayout>
