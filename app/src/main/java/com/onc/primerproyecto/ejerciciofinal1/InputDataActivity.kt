@@ -1,4 +1,4 @@
-package com.onc.primerproyecto.ejerciciofinal
+package com.onc.primerproyecto.ejerciciofinal1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,11 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.core.text.isDigitsOnly
 import com.onc.primerproyecto.Persona
 import com.onc.primerproyecto.R
-import com.onc.primerproyecto.Usuario
-import com.onc.primerproyecto.ejercicioclase.ExplicitDetailActivity
 
 class InputDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

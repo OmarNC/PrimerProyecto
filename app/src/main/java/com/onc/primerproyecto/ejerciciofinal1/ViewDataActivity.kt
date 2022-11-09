@@ -1,4 +1,4 @@
-package com.onc.primerproyecto.ejerciciofinal
+package com.onc.primerproyecto.ejerciciofinal1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.widget.TextView
 import android.widget.Toast
 import com.onc.primerproyecto.Persona
 import com.onc.primerproyecto.R
-import com.onc.primerproyecto.Usuario
 
 class ViewDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

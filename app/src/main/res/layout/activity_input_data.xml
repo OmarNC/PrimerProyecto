@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ejerciciofinal.InputDataActivity">
+    tools:context=".ejerciciofinal1.InputDataActivity">
 
     <TextView
         android:id="@+id/txv_Nombre"
