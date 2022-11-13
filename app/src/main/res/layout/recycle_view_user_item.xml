@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idCard"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvId"
+                android:textSize="25sp"
+                tools:text="ID"
+                android:textColor="@color/teal_200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvName"
+                android:textSize="25sp"
+                tools:text="NAME"
+                android:layout_toRightOf="@+id/tvId"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:textSize="25sp"
+                tools:text="DESCRIPTION"
+                android:textColor="@color/orange"
+                android:layout_below= "@+id/tvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

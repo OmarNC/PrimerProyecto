@@ -16,6 +16,7 @@ class ExplicitDetailActivity : AppCompatActivity() {
         var tvLastName=findViewById<TextView>(R.id.tvLastName)
         var tvAge=findViewById<TextView>(R.id.tvAge)
 
+       // supportActionBar?.
 
         intent.extras?.let{
             if (it.containsKey("KEY_NAME")){

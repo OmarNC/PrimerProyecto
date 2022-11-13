@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ejercicioclase.almacenamiento.SQLiteActivity">
+
+    <EditText
+        android:id="@+id/etId"
+        tools:text = "ID"
+        android:textColor="@color/teal_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etName"
+        tools:text = "NAME"
+        android:textColor="@color/gray_ligth"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etDescription"
+        tools:text = "DESCRIPTION"
+        android:textColor="@color/orange"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btAgregar"
+        android:text="Agregar"
+        android:layout_below="@+id/etDescription"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btView"
+        android:text="Ver DB"
+        android:layout_toRightOf="@+id/btAgregar"
+        android:layout_below="@+id/etDescription"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btUptade"
+        android:text="Actualizar"
+        android:layout_toRightOf="@+id/btView"
+        android:layout_below="@+id/etDescription"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:text="Borrar"
+        android:layout_below="@+id/btAgregar"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btLimpiar"
+        android:text="Limpiar"
+        android:layout_below="@+id/btAgregar"
+        android:layout_toRightOf="@+id/btDelete"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_sql_lista"
+        android:layout_below="@+id/btDelete"
+        android:layout_marginTop="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
