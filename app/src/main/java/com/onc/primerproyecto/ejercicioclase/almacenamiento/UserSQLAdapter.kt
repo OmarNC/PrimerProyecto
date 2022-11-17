@@ -7,7 +7,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.onc.primerproyecto.R
 
-class UserSQLAdapter(private val items: ArrayList<UserSqlModel>, private val listener: RecyclerItemSQLListener) : RecyclerView.Adapter<UserSQLAdapter.UserViewHolder>() {
+class UserSQLAdapter(private val items: ArrayList<UserSqlModel>,
+                     private val listener: RecyclerItemSQLListener) :
+    RecyclerView.Adapter<UserSQLAdapter.UserViewHolder>() {
+
     class UserViewHolder(view:View): RecyclerView.ViewHolder(view){
         var id : TextView
         var name : TextView

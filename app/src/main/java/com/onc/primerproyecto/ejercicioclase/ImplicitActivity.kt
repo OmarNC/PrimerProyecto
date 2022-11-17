@@ -11,6 +11,7 @@ class ImplicitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_implicit)
+
         val boton = findViewById<Button>(R.id.btn_send)
 
         boton.setOnClickListener {

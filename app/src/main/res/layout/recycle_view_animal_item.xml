@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -19,30 +18,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@+id/tvId"
+                android:id="@+id/tvIdAnimal"
                 android:textSize="25sp"
                 tools:text="ID"
                 android:textColor="@color/teal_200"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:id="@+id/tvName"
+                android:id="@+id/tvNameAnimal"
                 android:textSize="25sp"
                 tools:text="NAME"
-                android:layout_toRightOf="@+id/tvId"
+                android:layout_toRightOf="@+id/tvIdAnimal"
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:id="@+id/tvDescripcion"
+                android:id="@+id/tvDescripcionAnimal"
                 android:textSize="25sp"
                 tools:text="DESCRIPTION"
                 android:textColor="@color/orange"
-                android:layout_below= "@+id/tvId"
+                android:layout_below= "@+id/tvIdAnimal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
 
 </RelativeLayout>
